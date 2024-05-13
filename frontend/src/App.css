@@ -1,0 +1,166 @@
+#root{
+  width: 100%;
+    height: 100vh;
+    padding: 15px;
+
+}
+.icon{
+  cursor: pointer;
+  padding-inline: 10px;
+  padding-block: 10px;
+  border: solid 1px gray;
+  border-radius: 10px;
+  font-size: 23px;
+  transition: 0.4s;
+}
+.search {
+  position: relative;
+}
+.fil-ser button{
+  padding: 13px;
+}
+.fil-ser{
+  display: flex;
+  /* align-content: center; */
+  align-items: center;
+  gap: 10px;
+}
+.get-con{
+  display: flex;
+    justify-content: space-between;
+
+}
+
+.search input[type="text"] {
+  padding-left: 35px;
+  padding-right: 25px;
+}
+
+.search .search-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+.icon:hover{
+  color: #000;
+  background-color: white;
+}
+ .container ul{
+  display: flex;
+  flex-wrap: wrap;
+    gap: 15px;
+ }
+ .get h1{
+  text-align: center;
+ }
+ .get input{
+  padding: 13px;
+  font-size: 18px;
+  border: solid 1px transparent;
+  border-radius: 10px;
+ }
+ .btn-add {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+ }
+ table th{
+  background: rgba(0, 0, 0, 0.74);
+  padding: 10px;
+  border-radius: 15px;
+ }
+ table tr:hover{
+  background: rgba(0, 0, 0, 0.411);
+  border: 1px solid rgb(0, 247, 255);
+ }
+ table td{
+
+  background: #00000052;
+  border-radius: 10px;
+  text-align: center;
+
+ }
+ .btn{
+  display: flex;
+  justify-content: center;
+ }
+ .img-row img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+ }
+ .img-row{
+  width: 0;
+ }
+form{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+ form .input{
+  padding: 13px;
+  font-size: 18px;
+  border: solid 1px transparent;
+  border-radius: 10px;
+  width: 300px;
+
+}
+.radio {
+  padding: 13px;
+  font-size: 16px;
+  border: solid 1px transparent;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  background: #00000070;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.file{
+  
+  background: #00000066;
+  padding: 13px;
+  font-size: 18px;
+  border: solid 1px transparent;
+  border-radius: 10px;
+  width: 300px;
+}
+h1{
+  text-align: center;
+}
+select{
+  border: none;
+  outline: none;
+}
+.select-con{
+  padding: 13px;
+  font-size: 18px;
+  border: solid 1px transparent;
+  border-radius: 10px;
+}
+.inp{
+      display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.option{
+  padding: 13px;
+  background: #0000007a;
+  border-radius: 10px;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
