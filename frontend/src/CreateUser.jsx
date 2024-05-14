@@ -55,7 +55,7 @@ function CreateUser() {
           "Content-Type": "multipart/form-data",
         },
       });
-      navigate('/users')
+      navigate('/')
       console.log(res.data);
     } catch (err) {
       console.error(err);
