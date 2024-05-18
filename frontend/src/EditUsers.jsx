@@ -341,14 +341,14 @@ function EditUser() {
           onChange={handleChange}
           required
         />
-        <input
+        {/* <input
           className="input"
           type="text"
           name="address"
           value={userData.address}
           onChange={handleChange}
           required
-        />
+        /> */}
         <input
           className="input"
           type="text"

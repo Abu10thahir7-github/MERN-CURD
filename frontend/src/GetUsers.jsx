@@ -225,7 +225,7 @@ function GetUsers() {
             <th>Password</th>
             <th>Gender</th>
             <th>Age</th>
-            <th>Address</th>
+            {/* <th>Address</th> */}
             <th>Phone</th>
             <th>country</th>
             <th>Actions</th>
@@ -246,7 +246,7 @@ function GetUsers() {
               <td>{user.password}</td>
               <td>{user.gender}</td>
               <td>{user.age}</td>
-              <td>{user.address}</td>
+              {/* <td>{user.address}</td> */}
               <td>{user.phone}</td>
               <td>{user.country}</td>
               <td>

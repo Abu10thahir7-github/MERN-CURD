@@ -25,6 +25,7 @@ function CreateUser() {
 
   const handleFileChange = (e) => {
     const file = e.target.files[0];
+    
     setFormData({ ...formData, image: file });
 
     // Preview the image
@@ -158,7 +159,7 @@ function CreateUser() {
         onChange={handleChange}
         required
       />
-      <input
+      {/* <input
         className="input"
         type="text"
         name="address"
@@ -166,7 +167,7 @@ function CreateUser() {
         value={formData.address}
         onChange={handleChange}
         required
-      />
+      /> */}
       <input
         className="input"
         type="text"
