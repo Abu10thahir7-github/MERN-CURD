@@ -15,7 +15,7 @@ app.use('/images', express.static('public/images'));
 
 
 // Connect to MongoDB
-mongoose.connect("mongodb://localhost:27017/crudOperation-image&text")
+mongoose.connect("mongodb+srv://abu10thahir7:c2tGSQRJe36jivxv@cluster0.quyruzp.mongodb.net/crudOperation-image&text")
     .then(() => console.log("connected to mongo database successfully"))
     .catch((err) => {
         console.log(err);
